@@ -730,7 +730,6 @@ public class EvaluationService {
 	 */
 	public boolean isLuhnValid(String string) {
 		String check = string.replaceAll(" ", "");
-		System.out.println(check + " " + check.length());
 		int sum = 0;
 		boolean doubleIt = false;
 		for (int i = check.length()-1; i >= 0; i--) {
